@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.tsarenkov.by/"
+        xmlns:s="http://www.tsarenkov.by/">
+   <element name="shop" type="s:content"/>
+   <complexType name="content">
+      <sequence>
+         <element name="goods">
+            <complexType>
+               <sequence>
+                  <element name="good" type="s:good" minOccurs="1" maxOccurs="unbounded"/>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="orders">
+            <complexType>
+               <sequence>
+                  <element name="order" type="s:order"/>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="customers">
+            <complexType>
+               <sequence>
+                  <element name="customer" type="s:customer" minOccurs="0" maxOccurs="unbounded"/>
+               </sequence>
+            </complexType>
+         </element>
+         <element name="admins">
+            <complexType>
+               <sequence>
+                  <element name="admin" type="s:admin" minOccurs="1" maxOccurs="unbounded"/>
+               </sequence>
+            </complexType>
+         </element>
+      </sequence>
+   </complexType>
+
+   <complexType name="good">
+      <sequence>
+         <element name="category" type="string"/>
+         <element name="name" type="string"/>
+         <element name="count" type="integer"/>
+         <element name="description" type="string"/>
+         <element name="price" type="decimal"/>
+      </sequence>
+      <attribute name="id" type="integer" use="required"/>
+   </complexType>
+
+   <complexType name="order">
+      <sequence>
+         <element name="customer-id" type="string"/>
+         <element name="good-id" type="integer"/>
+         <element name="status-payment" type="string"/>
+      </sequence>
+      <attribute name="id" type="integer" use="required"/>
+   </complexType>
+
+   <complexType name="item">
+      <sequence>
+         <element name="userId" type="integer"/>
+         <element name="gooId" type="integer"/>
+         <element name="status-Payment" type="string"/>
+      </sequence>
+      <attribute name="id" type="integer" use="required"/>
+   </complexType>
+   <complexType name="user">
+      <sequence>
+         <element name="FIO" type="string"/>
+         <element name="address" type="string"/>
+         <element name="telephone" type="string"/>
+         <element name="email" type="string"/>
+         <element name="password" type="string"/>
+         <element name="status" type="boolean"/>
+      </sequence>
+      <attribute name="id" type="integer" use="required"/>
+   </complexType>
+
+   <complexType name="admin">
+      <sequence>
+         <element name="FIO" type="string"/>
+         <element name="email" type="string"/>
+         <element name="password" type="string"/>
+      </sequence>
+      <attribute name="id" type="integer"/>
+   </complexType>
+
+   <complexType name="customer">
+      <sequence>
+         <element name="FIO" type="string"/>
+         <element name="address" type="string"/>
+         <element name="phone" type="string"/>
+         <element name="email" type="string"/>
+         <element name="password" type="string"/>
+      </sequence>
+      <attribute name="id" type="integer"/>
+   </complexType>
+</schema>
+

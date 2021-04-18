@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:shop xmlns:s="http://www.tsarenkov.by/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tsarenkov.by/  schema.xsd">
+    <goods>
+        <good id="1">
+            <category>Мебель</category>
+            <name>Шкаф</name>
+            <count>24</count>
+            <description>1.2м Две двери</description>
+            <price>23.0</price>
+        </good>
+        <good id="2">
+            <category>Кухонная техника</category>
+            <name>Холодильник</name>
+            <count>39</count>
+            <description>Двухкамерный холодильник</description>
+            <price>194</price>
+        </good>
+        <good id="3">
+            <category>Мебель</category>
+            <name>Шкаф</name>
+            <count>24</count>
+            <description>1.2м Две двери</description>
+            <price>23.0</price>
+        </good>
+    </goods>
+    <orders>
+        <order id="1">
+            <customer-id>1</customer-id>
+            <good-id>1</good-id>
+            <status-payment>ORDERED</status-payment>
+        </order>
+    </orders>
+    <customers>
+        <customer id="1">
+            <FIO>Петров Виктор Генадьевич</FIO>
+            <address>г. Минск ул. Макаенка 9 д.5 кв.58</address>
+            <phone>+375295560340</phone>
+            <email>petrovViktor1991</email>
+            <password>petrov1721330</password>
+        </customer>
+    </customers>
+    <admins>
+        <admin id="1">
+            <FIO>Иванов Иван Иванович</FIO>
+            <email>InavovIvan1995@gmail.com</email>
+            <password>ivanI1999</password>
+        </admin>
+    </admins>
+</s:shop>
+
