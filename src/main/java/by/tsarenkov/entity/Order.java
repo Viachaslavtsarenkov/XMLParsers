@@ -44,16 +44,18 @@ public class Order implements Serializable {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj == null) {
+        if (obj == null || obj.getClass() != Order.class) {
             return false;
         }
 
-        if (obj.getClass() != Order.class) {
-            return false;
+        if (obj == this) {
+            return true;
         }
         Order order = (Order) obj;
-
-        return true;
+        return (id == order.getId() &
+                customerId == order.getCustomerId() &
+                goodId == order.getGoodId() &
+                status == order.getStatus());
     }
 
     @Override

@@ -67,4 +67,21 @@ public class Good implements Serializable {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        if (obj == this) {
+            return true;
+        }
+        Good good = (Good) obj;
+        return (name == good.getName() &
+                category == good.getCategory() &
+                description == good.getDescription() &
+                count == good.getCount() &
+                price == getPrice()
+                );
+    }
 }

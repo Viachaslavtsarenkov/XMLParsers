@@ -15,7 +15,7 @@
          <element name="orders">
             <complexType>
                <sequence>
-                  <element name="order" type="s:order"/>
+                  <element name="order" type="s:order" minOccurs="0" maxOccurs="unbounded"/>
                </sequence>
             </complexType>
          </element>
@@ -56,25 +56,6 @@
       <attribute name="id" type="integer" use="required"/>
    </complexType>
 
-   <complexType name="item">
-      <sequence>
-         <element name="userId" type="integer"/>
-         <element name="gooId" type="integer"/>
-         <element name="status-Payment" type="string"/>
-      </sequence>
-      <attribute name="id" type="integer" use="required"/>
-   </complexType>
-   <complexType name="user">
-      <sequence>
-         <element name="FIO" type="string"/>
-         <element name="address" type="string"/>
-         <element name="telephone" type="string"/>
-         <element name="email" type="string"/>
-         <element name="password" type="string"/>
-         <element name="status" type="boolean"/>
-      </sequence>
-      <attribute name="id" type="integer" use="required"/>
-   </complexType>
 
    <complexType name="admin">
       <sequence>

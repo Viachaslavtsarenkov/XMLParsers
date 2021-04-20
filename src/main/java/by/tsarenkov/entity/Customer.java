@@ -72,7 +72,19 @@ public class Customer implements Serializable {
 
     @Override
     public boolean equals(Object obj) {
-        return true;
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        if (obj == this) {
+            return true;
+        }
+        Customer customer = (Customer) obj;
+        return (id == customer.getId() &
+                FIO == customer.getFIO() &
+                address == customer.getAddress() &
+                phone == customer.getPhone() &
+                email == customer.getEmail() &
+                password == customer.getPassword());
     }
 
     @Override

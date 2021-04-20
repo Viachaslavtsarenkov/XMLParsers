@@ -24,12 +24,268 @@
             <description>1.2м Две двери</description>
             <price>23.0</price>
         </good>
+        <good id="4">
+            <category>Техника</category>
+            <name>Телевизор LG K12</name>
+            <count>36</count>
+            <description>43 дюйма</description>
+            <price>840</price>
+        </good>
+        <good id="5">
+            <category>Техника</category>
+            <name>Телевизор Samsung</name>
+            <count>3</count>
+            <description>49 дюйма</description>
+            <price>1120</price>
+        </good>
+        <good id="6">
+            <category>Техника</category>
+            <name>Телевизор Horizont</name>
+            <count>53</count>
+            <description>34 дюйма</description>
+            <price>450</price>
+        </good>
+        <good id="7">
+            <category>Техника</category>
+            <name>Телевизор Samsung l34</name>
+            <count>28</count>
+            <description>49 дюйма</description>
+            <price>980</price>
+        </good>
+        <good id="8">
+            <category>Техника</category>
+            <name>Ноутбук Lenevo k-100</name>
+            <count>28</count>
+            <description>15.6, RAM 8gb, 8 ядер</description>
+            <price>1860</price>
+        </good>
+        <good id="9">
+            <category>Техника</category>
+            <name>Ноутбук Xiaomi RedmiBook</name>
+            <count>228</count>
+            <description>16.1, RAM 16gb, 8 ядер, HDD+SDD</description>
+            <price>2499</price>
+        </good>
+        <good id="10">
+            <category>Техника</category>
+            <name>Ноутбук Asus</name>
+            <count>128</count>
+            <description>13.6, RAM 16gb, 8 ядер, SSD 520gb</description>
+            <price>2499</price>
+        </good>
+        <good id="11">
+            <category>Техника</category>
+            <name>Ноутбук </name>
+            <count>128</count>
+            <description>13.6, RAM 16gb, 8 ядер, SSD 520gb</description>
+            <price>2499</price>
+        </good>
+        <good id="12">
+            <category>Техника</category>
+            <name>Планшет Samsung T415 </name>
+            <count>88</count>
+            <description>RAM 4gb, 2 ядер, ROM 64gb</description>
+            <price>999</price>
+        </good>
+        <good id="13">
+            <category>Техника</category>
+            <name>Планшет Samsung T411 </name>
+            <count>48</count>
+            <description>RAM 4gb, 4 ядра, ROM 128gb</description>
+            <price>1299</price>
+        </good>
+        <good id="14">
+            <category>Техника</category>
+            <name>Планшет Lenovo yoga tab 4 </name>
+            <count>28</count>
+            <description>RAM 4gb, 2 ядра, ROM 128gb</description>
+            <price>1200</price>
+        </good>
+        <good id="15">
+            <category>Техника</category>
+            <name>Xiaomi redmi 9 lite </name>
+            <count>167</count>
+            <description>RAM 8gb, 4 ядра, ROM 128gb</description>
+            <price>740</price>
+        </good>
+        <good id="16">
+            <category>Техника</category>
+            <name>Xiaomi redmi 8 note </name>
+            <count>617</count>
+            <description>RAM 4gb, 2 ядра, ROM 64gb</description>
+            <price>510</price>
+        </good>
+        <good id="17">
+            <category>Техника</category>
+            <name>Xiaomi redmi 8 note </name>
+            <count>656</count>
+            <description>RAM 4gb, 2 ядра, ROM 64gb</description>
+            <price>510</price>
+        </good>
+        <good id="18">
+            <category>Техника</category>
+            <name>Xiaomi redmi 8 note </name>
+            <count>67</count>
+            <description>RAM 4gb, 2 ядра, ROM 32gb</description>
+            <price>510</price>
+        </good>
+        <good id="19">
+            <category>Техника</category>
+            <name>Huawei k12 </name>
+            <count>15</count>
+            <description>RAM 4gb, 4 ядра, ROM 128gb</description>
+            <price>940</price>
+        </good>
+        <good id="20">
+            <category>Кухонная техника</category>
+            <name>Микроволновка </name>
+            <count>153</count>
+            <description>Цвет: белый</description>
+            <price>940</price>
+        </good>
+        <good id="21">
+            <category>Кухонная техника</category>
+            <name>Микроволновка Samsung</name>
+            <count>13</count>
+            <description>Цвет: черный</description>
+            <price>1120</price>
+        </good>
+        <good id="22">
+            <category>Кухонная техника</category>
+            <name>Микроволновка LG</name>
+            <count>3</count>
+            <description>Цвет: синий</description>
+            <price>999.00</price>
+        </good>
+        <good id="23">
+            <category>Кухонная техника</category>
+            <name>Микроволновка LG l35</name>
+            <count>123</count>
+            <description>Цвет: черный/белый</description>
+            <price>1020</price>
+        </good>
+        <good id="24">
+            <category>Кухонная техника</category>
+            <name>Холодильник Samsung l35</name>
+            <count>94</count>
+            <description>Трехкамерный</description>
+            <price>1120</price>
+        </good>
+        <good id="25">
+            <category>Кухонная техника</category>
+            <name>Холодильник Samsung l35</name>
+            <count>34</count>
+            <description>Трехкамерный, цвет: белый</description>
+            <price>1120</price>
+        </good>
+        <good id="26">
+            <category>Кухонная техника</category>
+            <name>Миксек Bosh</name>
+            <count>1</count>
+            <description>Трехкамерный, цвет: белый</description>
+            <price>1120</price>
+        </good>
+        <good id="27">
+            <category>Аудио</category>
+            <name>Наушники xiaomi AirDots 2</name>
+            <count>42</count>
+            <description>белые</description>
+            <price>50</price>
+        </good>
+        <good id="28">
+            <category>Аудио</category>
+            <name>Колонка Yandex Alisa</name>
+            <count>97</count>
+            <description>Цвет: черыный, время работы: 48ч</description>
+            <price>179.90</price>
+        </good>
+        <good id="29">
+            <category>Аудио</category>
+            <name>Колонка Yandex Alisa</name>
+            <count>97</count>
+            <description>Цвет: черыный, время работы: 48ч</description>
+            <price>179.90</price>
+        </good>
+        <good id="30">
+            <category>Аудио</category>
+            <name>Колонка Xiaomi</name>
+            <count>13</count>
+            <description>Цвет: черыный, время работы: 24ч</description>
+            <price>240</price>
+        </good>
+        <good id="31">
+            <category>Аудио</category>
+            <name>Наушники IPods</name>
+            <count>76</count>
+            <description>Цвет: черыный, время работы: 10ч</description>
+            <price>840</price>
+        </good>
     </goods>
     <orders>
         <order id="1">
             <customer-id>1</customer-id>
             <good-id>1</good-id>
+            <status-payment>RECEIVED</status-payment>
+        </order>
+        <order id="2">
+            <customer-id>3</customer-id>
+            <good-id>6</good-id>
             <status-payment>ORDERED</status-payment>
+        </order>
+        <order id="3">
+            <customer-id>1</customer-id>
+            <good-id>7</good-id>
+            <status-payment>RECEIVED</status-payment>
+        </order>
+        <order id="4">
+            <customer-id>4</customer-id>
+            <good-id>11</good-id>
+            <status-payment>ORDERED</status-payment>
+        </order>
+        <order id="5">
+            <customer-id>1</customer-id>
+            <good-id>6</good-id>
+            <status-payment>DENIED</status-payment>
+        </order>
+        <order id="6">
+            <customer-id>1</customer-id>
+            <good-id>18</good-id>
+            <status-payment>ORDERED</status-payment>
+        </order>
+        <order id="8">
+            <customer-id>4</customer-id>
+            <good-id>12</good-id>
+            <status-payment>DENIED</status-payment>
+        </order>
+        <order id="9">
+            <customer-id>7</customer-id>
+            <good-id>21</good-id>
+            <status-payment>ORDERED</status-payment>
+        </order>
+        <order id="10">
+            <customer-id>1</customer-id>
+            <good-id>23</good-id>
+            <status-payment>PAYED</status-payment>
+        </order>
+        <order id="11">
+            <customer-id>1</customer-id>
+            <good-id>8</good-id>
+            <status-payment>PAYED</status-payment>
+        </order>
+        <order id="12">
+            <customer-id>2</customer-id>
+            <good-id>20</good-id>
+            <status-payment>ORDERED</status-payment>
+        </order>
+        <order id="13">
+            <customer-id>1</customer-id>
+            <good-id>26</good-id>
+            <status-payment>PAYED</status-payment>
+        </order>
+        <order id="14">
+            <customer-id>1</customer-id>
+            <good-id>23</good-id>
+            <status-payment>DENIED</status-payment>
         </order>
     </orders>
     <customers>
@@ -37,8 +293,50 @@
             <FIO>Петров Виктор Генадьевич</FIO>
             <address>г. Минск ул. Макаенка 9 д.5 кв.58</address>
             <phone>+375295560340</phone>
-            <email>petrovViktor1991</email>
+            <email>petrovViktor1991@tut.by</email>
             <password>petrov1721330</password>
+        </customer>
+        <customer id="2">
+            <FIO>Адамович Валентина Петровна</FIO>
+            <address>г. Могилев ул. Ленина 12 д.15 кв.1</address>
+            <phone>+375293245234</phone>
+            <email>adamovochVal@mail.ru</email>
+            <password>ada21444vich</password>
+        </customer>
+        <customer id="3">
+            <FIO>Демидович Карина Борисовна</FIO>
+            <address>Могилевская область, г.Кричев ул. Якуба Каласа 33 д.13 кв.6</address>
+            <phone>+375296783433</phone>
+            <email>demidovickK@tut.by</email>
+            <password>demid22231732</password>
+        </customer>
+        <customer id="4">
+            <FIO>Лапушкин Виктор Алексеевич</FIO>
+            <address>г. Бобруйск ул. К. Маркса 5 д.5 кв.58</address>
+            <phone>+375295560340</phone>
+            <email>petrovViktor1991@tut.by</email>
+            <password>petrov1721330</password>
+        </customer>
+        <customer id="5">
+            <FIO>Кравчук Татьяна Николаевна</FIO>
+            <address>г. Речица</address>
+            <phone>+37529234345</phone>
+            <email>kravchyckTan@tut.by</email>
+            <password>krav21214K</password>
+        </customer>
+        <customer id="6">
+            <FIO>Лапушкина Катерина Петровна</FIO>
+            <address>г. Чаусы</address>
+            <phone>+3752923423456</phone>
+            <email>lapKate@tut.by</email>
+            <password>kateLAp1231</password>
+        </customer>
+        <customer id="7">
+            <FIO>Кохановская Марина Павловна</FIO>
+            <address>г. Чериков.</address>
+            <phone>+375297565733</phone>
+            <email>kohanMatina@gmail.com</email>
+            <password>marjokd34</password>
         </customer>
     </customers>
     <admins>
@@ -46,6 +344,16 @@
             <FIO>Иванов Иван Иванович</FIO>
             <email>InavovIvan1995@gmail.com</email>
             <password>ivanI1999</password>
+        </admin>
+        <admin id="2">
+            <FIO>Сергейчик Елена Виниаминовна</FIO>
+            <email>Alenasergachik@gmail.com</email>
+            <password>alena323A</password>
+        </admin>
+        <admin id="3">
+            <FIO>Краб Виктор Павлович</FIO>
+            <email>krab009@gmail.com</email>
+            <password>krabqw42S</password>
         </admin>
     </admins>
 </s:shop>

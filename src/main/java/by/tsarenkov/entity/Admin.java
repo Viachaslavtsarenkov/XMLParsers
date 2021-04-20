@@ -51,4 +51,18 @@ public class Admin implements Serializable {
         this.password = password;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        if (obj == this) {
+            return true;
+        }
+        Admin admin = (Admin) obj;
+        return (FIO == admin.getFIO() &
+                email == admin.getEmail() &
+                password == admin.getPassword());
+    }
+
 }

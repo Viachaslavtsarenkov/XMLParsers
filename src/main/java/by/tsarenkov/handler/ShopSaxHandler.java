@@ -25,6 +25,10 @@ public class ShopSaxHandler extends DefaultHandler {
         return goodList;
     }
 
+    public List<Order> getOrderList() {
+        return orderList;
+    }
+
     @Override
     public void startDocument() throws SAXException {
         System.out.println("Parsing started");
@@ -41,18 +45,22 @@ public class ShopSaxHandler extends DefaultHandler {
         switch (qName) {
             case "good" :
                 good = new Good();
+                good.setId(Integer.parseInt(attributes.getValue("id")));
                 currentEntity = ShopTagName.GOOD;
                 break;
             case "order":
                 order = new Order();
+                order.setId(Integer.parseInt(attributes.getValue("id")));
                 currentEntity = ShopTagName.ORDER;
                 break;
             case "admin":
                 admin = new Admin();
+                admin.setId(Integer.parseInt(attributes.getValue("id")));
                 currentEntity = ShopTagName.ADMIN;
                 break;
             case "customer":
                 customer = new Customer();
+                customer.setId(Integer.parseInt(attributes.getValue("id")));
                 currentEntity = ShopTagName.CUSTOMER;
                 break;
         }
@@ -64,7 +72,10 @@ public class ShopSaxHandler extends DefaultHandler {
     }
 
     @Override
-    public void endElement(String uri, String localName, String qName) throws SAXException{
+    public void endElement(String uri, String localName, String qName) throws SAXException {
+        if ("s:shop".equals(qName)) {
+            return;
+        }
         switch (currentEntity) {
             case GOOD:
                 GoodTagName goodTagName = GoodTagName.valueOf(qName.toUpperCase()
@@ -80,10 +91,14 @@ public class ShopSaxHandler extends DefaultHandler {
                 OrderTagName orderTagName = OrderTagName.valueOf(qName.toUpperCase()
                        .replace("-","_"));
                 setOrderInformation(orderTagName);
+                break;
             case ADMIN:
                 AdminTagName adminTagName= AdminTagName.valueOf(qName.toUpperCase()
-                        .replace("-","_"));
+                     .replace("-","_"));
                 setAdminInformation(adminTagName);
+                break;
+            default:
+                currentEntity = null;
                 break;
         }
     }
@@ -107,6 +122,7 @@ public class ShopSaxHandler extends DefaultHandler {
             case GOOD:
                 goodList.add(good);
                 good = null;
+                break;
         }
     }
 
@@ -125,7 +141,6 @@ public class ShopSaxHandler extends DefaultHandler {
                 orderList.add(order);
                 order = null;
                 break;
-
         }
     }
 

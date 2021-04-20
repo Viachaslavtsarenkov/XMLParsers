@@ -4,5 +4,6 @@ public enum AdminTagName {
     FIO,
     EMAIL,
     PASSWORD,
-    ADMIN
+    ADMIN,
+    ADMINS
 }
