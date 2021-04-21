@@ -77,11 +77,23 @@ public class Good implements Serializable {
             return true;
         }
         Good good = (Good) obj;
-        return (name == good.getName() &
-                category == good.getCategory() &
-                description == good.getDescription() &
-                count == good.getCount() &
-                price == getPrice()
-                );
+        return (id == good.getId());
+    }
+
+    @Override
+    public int hashCode(){
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getName()
+                + "[id=" + id
+                + ",name=" + name
+                + ",category=" + category
+                + ",description=" + description
+                + ",count=" + count
+                + ", price=" + price
+                + "]";
     }
 }

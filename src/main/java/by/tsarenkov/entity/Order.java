@@ -52,14 +52,21 @@ public class Order implements Serializable {
             return true;
         }
         Order order = (Order) obj;
-        return (id == order.getId() &
-                customerId == order.getCustomerId() &
-                goodId == order.getGoodId() &
-                status == order.getStatus());
+        return (id == order.getId());
     }
 
     @Override
     public int hashCode(){
-        return 0;
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getName()
+                +"[id=" + id
+                + ",customerId=" + customerId
+                + ",goodId=" + goodId
+                + ",status=" + status
+                + "]";
     }
 }

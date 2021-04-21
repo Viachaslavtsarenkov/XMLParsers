@@ -1,5 +1,6 @@
-package by.tsarenkov.handler;
+package by.tsarenkov.parser.impl;
 import by.tsarenkov.entity.*;
+import by.tsarenkov.parser.Parser;
 import org.apache.xerces.parsers.DOMParser;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -13,7 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DOMShopParser {
+public class DOMShopParser implements Parser {
 
     final String PATH = "src/main/resources/shop.xml";
     private List<Good> goodList = new ArrayList<>();
@@ -25,18 +26,19 @@ public class DOMShopParser {
         parse();
     }
 
+    @Override
     public List<Good> getGoodList() {
         return goodList;
     }
-
+    @Override
     public List<Order> getOrderList() {
         return orderList;
     }
-
+    @Override
     public List<Customer> getCustomerList() {
         return customerList;
     }
-
+    @Override
     public List<Admin> getAdminList() {
         return adminList;
     }

@@ -56,7 +56,6 @@
       <attribute name="id" type="integer" use="required"/>
    </complexType>
 
-
    <complexType name="admin">
       <sequence>
          <element name="FIO" type="string"/>

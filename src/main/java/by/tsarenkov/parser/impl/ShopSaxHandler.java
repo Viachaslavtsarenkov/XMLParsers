@@ -1,7 +1,8 @@
-package by.tsarenkov.handler;
+package by.tsarenkov.parser.impl;
 
 import by.tsarenkov.entity.*;
 import by.tsarenkov.entity.tag.*;
+import by.tsarenkov.parser.Parser;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -9,7 +10,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShopSaxHandler extends DefaultHandler {
+public class ShopSaxHandler extends DefaultHandler implements Parser {
     private List<Good> goodList = new ArrayList<>();
     private List<Customer> customerList = new ArrayList<>();
     private List<Order> orderList = new ArrayList<>();
@@ -21,18 +22,35 @@ public class ShopSaxHandler extends DefaultHandler {
     private ShopTagName currentEntity;
     private StringBuilder text;
 
+    public ShopSaxHandler() {
+
+    }
+
+    @Override
     public List<Good> getGoodList() {
         return goodList;
     }
 
+    @Override
     public List<Order> getOrderList() {
         return orderList;
+    }
+
+    @Override
+    public List<Customer> getCustomerList() {
+        return customerList;
+    }
+
+    @Override
+    public List<Admin> getAdminList() {
+        return adminList;
     }
 
     @Override
     public void startDocument() throws SAXException {
         System.out.println("Parsing started");
     }
+
     @Override
     public void endDocument() throws SAXException {
         System.out.println("Parsing ended");

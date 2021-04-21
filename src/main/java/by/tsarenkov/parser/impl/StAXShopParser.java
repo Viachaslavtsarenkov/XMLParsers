@@ -1,7 +1,8 @@
-package by.tsarenkov.handler;
+package by.tsarenkov.parser.impl;
 
 import by.tsarenkov.entity.*;
 import by.tsarenkov.entity.tag.*;
+import by.tsarenkov.parser.Parser;
 
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
@@ -14,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-public class StAXShopParser {
+public class StAXShopParser implements Parser {
     private List<Good> goodList = new ArrayList<>();
     private List<Customer> customerList = new ArrayList<>();
     private List<Order> orderList = new ArrayList<>();
@@ -31,18 +32,19 @@ public class StAXShopParser {
         parse();
     }
 
+    @Override
     public List<Good> getGoodList() {
         return goodList;
     }
-
+    @Override
     public List<Order> getOrderList() {
         return orderList;
     }
-
+    @Override
     public List<Customer> getCustomerList() {
         return customerList;
     }
-
+    @Override
     public List<Admin> getAdminList() {
         return adminList;
     }

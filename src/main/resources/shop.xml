@@ -5,21 +5,28 @@
     <goods>
         <good id="1">
             <category>Мебель</category>
-            <name>Шкаф</name>
+            <name>Шкаф угловой ДСВ Мебель Ронда ШКУР782.1</name>
             <count>24</count>
             <description>1.2м Две двери</description>
             <price>23.0</price>
         </good>
         <good id="2">
             <category>Кухонная техника</category>
-            <name>Холодильник</name>
+            <name>Холодильник BOSH KGN39AI33R</name>
             <count>39</count>
-            <description>Двухкамерный холодильник</description>
+            <description>
+                Система No Frost: полная
+                Класс энергопотребления: A++
+                Управление: сенсорное
+                Объем: 419 л
+                Объем холодильной камеры: 280 л
+                Объем морозильной камеры: 108 л
+            </description>
             <price>194</price>
         </good>
         <good id="3">
             <category>Мебель</category>
-            <name>Шкаф</name>
+            <name>Шкаф Лофт-2 СТЛ.117.04М</name>
             <count>24</count>
             <description>1.2м Две двери</description>
             <price>23.0</price>
@@ -28,35 +35,68 @@
             <category>Техника</category>
             <name>Телевизор LG K12</name>
             <count>36</count>
-            <description>43 дюйма</description>
+            <description>
+                Диагональ экрана: 55 "
+                Разрешение экрана: 3840x2160
+                Технология экрана: ЖК
+                Частота обновления экрана: 50 Гц
+                Smart TV: есть
+                Цвет: серый
+            </description>
             <price>840</price>
         </good>
         <good id="5">
             <category>Техника</category>
             <name>Телевизор Samsung</name>
             <count>3</count>
-            <description>49 дюйма</description>
+            <description>
+                Диагональ экрана: 32 "
+                Разрешение экрана: 1366x768
+                Технология экрана: ЖК
+                Частота обновления экрана: 50 Гц
+                Smart TV: есть
+                Цвет: черный
+            </description>
             <price>1120</price>
         </good>
         <good id="6">
             <category>Техника</category>
             <name>Телевизор Horizont</name>
             <count>53</count>
-            <description>34 дюйма</description>
+            <description>
+                Диагональ экрана: 32 "
+                Разрешение экрана: 1366x768
+                Технология экрана: ЖК
+                Частота обновления экрана: 60 Гц
+                Цвет: черный
+            </description>
             <price>450</price>
         </good>
         <good id="7">
             <category>Техника</category>
-            <name>Телевизор Samsung l34</name>
+            <name>Телевизор Samsung UE55TU7090UXRU</name>
             <count>28</count>
-            <description>49 дюйма</description>
-            <price>980</price>
+            <description>
+                Диагональ экрана: 55 "
+                Разрешение экрана: 3840x2160
+                Технология экрана: ЖК
+                Частота обновления экрана: 60 Гц
+                Цвет: серый
+            </description>
+            <price>1980</price>
         </good>
         <good id="8">
             <category>Техника</category>
             <name>Ноутбук Lenevo k-100</name>
             <count>28</count>
-            <description>15.6, RAM 8gb, 8 ядер</description>
+            <description>
+                Диагональ экрана: 15.6 "
+                Тип процессора: Intel Celeron
+                Оперативная память: 4 Гб
+                Видеоадаптер: Intel UHD Graphics
+                Объем SSD: 256 Гб
+                Операционная система: DOS
+            </description>
             <price>1860</price>
         </good>
         <good id="9">
@@ -68,114 +108,221 @@
         </good>
         <good id="10">
             <category>Техника</category>
-            <name>Ноутбук Asus</name>
+            <name>Ноутбук Asus X509fa-EJ601</name>
             <count>128</count>
-            <description>13.6, RAM 16gb, 8 ядер, SSD 520gb</description>
+            <description>
+                Диагональ экрана: 15.6 "
+                Тип процессора: Intel Pentium Gold
+                Оперативная память: 4 Гб
+                Видеоадаптер: Intel UHD Graphics
+                Объем SSD: 256 Гб
+                Операционная система: DOS
+            </description>
             <price>2499</price>
         </good>
         <good id="11">
             <category>Техника</category>
-            <name>Ноутбук </name>
+            <name>Ноутбук HONOR MAGIBOOK 14 2020</name>
             <count>128</count>
-            <description>13.6, RAM 16gb, 8 ядер, SSD 520gb</description>
+            <description>
+                Диагональ экрана: 14 "
+                Тип процессора: AMD Ryzen 5
+                Оперативная память: 8 Гб
+                Видеоадаптер: AMD Radeon Vega 8
+                Объем SSD: 256 Гб
+                Операционная система: Windows 10
+            </description>
             <price>2499</price>
         </good>
         <good id="12">
             <category>Техника</category>
             <name>Планшет Samsung T415 </name>
             <count>88</count>
-            <description>RAM 4gb, 2 ядер, ROM 64gb</description>
+            <description>
+                Диагональ экрана: 8 "
+                Разрешение экрана: 1280x800
+                ОС: Android
+                Тип процессора: Qualcomm SDM429
+                Оперативная память: 2 Гб
+                Встроенная память: 32 Гб
+            </description>
             <price>999</price>
         </good>
         <good id="13">
             <category>Техника</category>
             <name>Планшет Samsung T411 </name>
             <count>48</count>
-            <description>RAM 4gb, 4 ядра, ROM 128gb</description>
+            <description>
+                Диагональ экрана: 10.1 "
+                Разрешение экрана: 1280x800
+                ОС: Android 10
+                Тип процессора: MediaTek Helio P22T
+                Оперативная память: 2 Гб
+                Встроенная память: 32 Гб
+            </description>
             <price>1299</price>
         </good>
         <good id="14">
             <category>Техника</category>
             <name>Планшет Lenovo yoga tab 4 </name>
             <count>28</count>
-            <description>RAM 4gb, 2 ядра, ROM 128gb</description>
+            <description>
+                Диагональ экрана: 8 "
+                Разрешение экрана: 1280x800
+                ОС: Android 9.0
+                Тип процессора: MediaTek Helio A22
+                Оперативная память: 2 Гб
+                Встроенная память: 32 Гб
+            </description>
             <price>1200</price>
         </good>
         <good id="15">
             <category>Техника</category>
             <name>Xiaomi redmi 9 lite </name>
             <count>167</count>
-            <description>RAM 8gb, 4 ядра, ROM 128gb</description>
+            <description>
+                Размер экрана: 6.53 "
+                Оперативная память: 4 Гб
+                Встроенная память: 128 Гб
+                Разрешение экрана: 1080x2340
+                Основная камера: 48 + 2 + 2 Мп
+                Емкость аккумулятора: 6000 мАч
+            </description>
             <price>740</price>
         </good>
         <good id="16">
             <category>Техника</category>
             <name>Xiaomi redmi 8 note </name>
             <count>617</count>
-            <description>RAM 4gb, 2 ядра, ROM 64gb</description>
-            <price>510</price>
+            <description>
+                Диагональ экрана: 6.1 "
+                Разрешение экрана: 1920x1200
+                ОС: Android 9.0
+                Тип процессора: Snapdragon 439
+                Оперативная память: 4 Гб
+                Встроенная память: 64 Гб
+            </description>
+            <price>900</price>
         </good>
         <good id="17">
             <category>Техника</category>
             <name>Xiaomi redmi 8 note </name>
             <count>656</count>
-            <description>RAM 4gb, 2 ядра, ROM 64gb</description>
+            <description>
+                Размер экрана: 6.39 "
+                Оперативная память: 4 Гб
+                Встроенная память: 64 Гб
+                Разрешение экрана: 720x1560
+                Основная камера: 48 + 8 + 2 Мп
+                Емкость аккумулятора: 4000 мАч
+            </description>
             <price>510</price>
         </good>
         <good id="18">
             <category>Техника</category>
             <name>Xiaomi redmi 8 note </name>
             <count>67</count>
-            <description>RAM 4gb, 2 ядра, ROM 32gb</description>
+            <description>
+                Размер экрана: 6.67 "
+                Оперативная память: 6 Гб
+                Встроенная память: 128 Гб
+                Разрешение экрана: 1080x2400
+                Основная камера: 64 + 8 + 5 + 2 Мп
+                Емкость аккумулятора: 5020 мАч
+            </description>
             <price>510</price>
         </good>
         <good id="19">
             <category>Техника</category>
             <name>Huawei k12 </name>
             <count>15</count>
-            <description>RAM 4gb, 4 ядра, ROM 128gb</description>
+            <description>
+                Размер экрана: 6.5 "
+                Оперативная память: 3 Гб
+                Встроенная память: 32 Гб
+                Разрешение экрана: 720x1600
+                Основная камера: 48 + 5 + 2 + 2 Мп
+                Емкость аккумулятора: 5000 мАч
+            </description>
             <price>940</price>
         </good>
         <good id="20">
             <category>Кухонная техника</category>
-            <name>Микроволновка </name>
+            <name>Микроволновка SAMSUNG ME88SUT/BW</name>
             <count>153</count>
-            <description>Цвет: белый</description>
+            <description>
+                Мощность микроволн: 800 Вт
+                Объем: 23 л
+                Управление: электронное
+                Внутреннее покрытие: биокерамика
+                Количество программ автоменю: 30
+            </description>
             <price>940</price>
         </good>
         <good id="21">
             <category>Кухонная техника</category>
-            <name>Микроволновка Samsung</name>
+            <name>Микроволновка LG MS2042DARB</name>
             <count>13</count>
-            <description>Цвет: черный</description>
+            <description>
+                Мощность микроволн: 700 Вт
+                Объем: 20 л
+                Управление: электронное
+                Внутреннее покрытие: эмаль
+                Количество программ автоменю: 32
+            </description>
             <price>1120</price>
         </good>
         <good id="22">
             <category>Кухонная техника</category>
-            <name>Микроволновка LG</name>
+            <name>МикроволновкаMIDEA AM720C4E-S</name>
             <count>3</count>
-            <description>Цвет: синий</description>
-            <price>999.00</price>
+            <description>
+                Мощность микроволн: 700 Вт
+                Объем: 20 л
+                Управление: электронное
+                Внутреннее покрытие: эмаль
+            </description>
+            <price>249.00</price>
         </good>
         <good id="23">
             <category>Кухонная техника</category>
-            <name>Микроволновка LG l35</name>
+            <name>МикроволновкаSAMSUNG MS23K15AS/BW</name>
             <count>123</count>
-            <description>Цвет: черный/белый</description>
+            <description>
+                Мощность микроволн: 800 Вт
+                Объем: 23 л
+                Управление: электронное
+                Внутреннее покрытие: биокерамика
+                Количество программ автоменю: 20
+            </description>
             <price>1020</price>
         </good>
         <good id="24">
             <category>Кухонная техника</category>
-            <name>Холодильник Samsung l35</name>
+            <name>Холодильник ATLANT XM 4623-140</name>
             <count>94</count>
-            <description>Трехкамерный</description>
+            <description>
+                Класс энергопотребления: A+
+                Управление: электронное
+                Объем: 355 л
+                Объем холодильной камеры: 182 л
+                Объем морозильной камеры: 159 л
+                Уровень шума: 39 дБ
+            </description>
             <price>1120</price>
         </good>
         <good id="25">
             <category>Кухонная техника</category>
-            <name>Холодильник Samsung l35</name>
+            <name>Холодильник LG GA-B419SMHL</name>
             <count>34</count>
-            <description>Трехкамерный, цвет: белый</description>
+            <description>
+                Система No Frost: полная
+                Класс энергопотребления: A+
+                Управление: электронное
+                Объем: 354 л
+                Объем холодильной камеры: 223 л
+                Объем морозильной камеры: 79 л
+            </description>
             <price>1120</price>
         </good>
         <good id="26">
@@ -196,29 +343,291 @@
             <category>Аудио</category>
             <name>Колонка Yandex Alisa</name>
             <count>97</count>
-            <description>Цвет: черыный, время работы: 48ч</description>
+            <description>Цвет: черный, время работы: 48ч</description>
             <price>179.90</price>
         </good>
         <good id="29">
             <category>Аудио</category>
             <name>Колонка Yandex Alisa</name>
             <count>97</count>
-            <description>Цвет: черыный, время работы: 48ч</description>
+            <description>Цвет: черный, время работы: 48ч</description>
             <price>179.90</price>
         </good>
         <good id="30">
             <category>Аудио</category>
             <name>Колонка Xiaomi</name>
             <count>13</count>
-            <description>Цвет: черыный, время работы: 24ч</description>
-            <price>240</price>
+            <description>Цвет: черный, время работы: 24ч</description>
+            <price>60</price>
         </good>
         <good id="31">
             <category>Аудио</category>
-            <name>Наушники IPods</name>
+            <name>Наушники XIAOMI AIRDOTS</name>
             <count>76</count>
-            <description>Цвет: черыный, время работы: 10ч</description>
+            <description>
+                Цвет: черный
+                Тип: наушники с микрофоном
+                Подключение: Bluetooth
+                Емкость аккумулятора: 43 мАч
+                Интерфейсы: Bluetooth
+                Тип аккумулятора: Li-ion
+            </description>
             <price>840</price>
+        </good>
+        <good id="32">
+            <category> Кухонная техника</category>
+            <name>Кофемашина Delonghi ecam30</name>
+            <count>746</count>
+            <description>
+                Мощность: 1450 Вт
+                Емкость контейнера для кофе в зернах: 300...
+                Емкость резервуара для воды: 1.8 л
+                Управление: электронное
+                Давление помпы: 15 бар
+                Цвет: черный
+            </description>
+            <price>1845</price>
+        </good>
+        <good id="33">
+            <category> Кухонная техника</category>
+            <name>Кофемашина Delonghi ecam350</name>
+            <count>746</count>
+            <description>
+                Мощность: 1450 Вт
+                Емкость контейнера для кофе в зернах: 300...
+                Емкость резервуара для воды: 1.8 л
+                Управление: электронное
+                Давление помпы: 15 бар
+                Цвет: черный
+            </description>
+            <price>1799</price>
+        </good>
+        <good id="34">
+            <category>Техника</category>
+            <name>Телевизор LG 48UK6200PLA</name>
+            <count>238</count>
+            <description>
+                Диагональ экрана: 49 "
+                Разрешение экрана: 3840x2160
+                Технология экрана: ЖК
+                Частота обновления экрана: 50 Гц
+                Smart TV: есть
+                Класс энергопотребления: A
+            </description>
+            <price>1409</price>
+        </good>
+        <good id="35">
+            <category>Техника</category>
+            <name>Телевизор Samsung UE55TU8500UXRU</name>
+            <count>238</count>
+            <description>
+                Диагональ экрана: 55 "
+                Разрешение экрана: 3840x2160
+                Технология экрана: ЖК
+                Smart TV: есть
+                Мощность: 140 Вт
+            </description>
+            <price>1999</price>
+        </good>
+        <good id="36">
+            <category>Техника</category>
+            <name>Телевизор LG 24TN520S-PZ</name>
+            <count>38</count>
+            <description>
+                Диагональ экрана: 24 "
+                Разрешение экрана: 1366x768
+                Технология экрана: ЖК
+                Smart TV: есть
+                TV-тюнер: DVB-S2, DVB-T2, DVB-S, DVB-T
+            </description>
+            <price>525</price>
+        </good>
+        <good id="37">
+            <category>Техника</category>
+            <name>Телевизор OLTO 3220R</name>
+            <count>50</count>
+            <description>
+                Диагональ экрана: 32 "
+                Разрешение экрана: 1366x768
+                Технология экрана: ЖК
+                Частота обновления экрана: 50 Гц
+                Мощность: 48 Вт
+            </description>
+            <price>1999</price>
+        </good>
+        <good id="38">
+            <category>Техника</category>
+            <name>Телевизор Samsung QE50Q60TAUXRU</name>
+            <count>150</count>
+            <description>
+                Диагональ экрана: 50 "
+                Разрешение экрана: 3840x2160
+                Технология экрана: QLED
+                Smart TV: есть
+                Мощность: 135 Вт
+            </description>
+            <price>1999</price>
+        </good>
+        <good id="39">
+            <category>Техника</category>
+            <name>Телевизор LG 43UK6200PLA</name>
+            <count>657</count>
+            <description>
+                Диагональ экрана: 43 "
+                Разрешение экрана: 3840x2160
+                Технология экрана: ЖК
+                Частота обновления экрана: 50 Гц
+                Smart TV: есть
+                Класс энергопотребления: A
+            </description>
+            <price>1999</price>
+        </good>
+        <good id="40">
+            <category>Техника</category>
+            <name>Телевизор Samsung UE65TU8500UXRU</name>
+            <count>657</count>
+            <description>
+                Диагональ экрана: 65 "
+                Разрешение экрана: 3840x2160
+                Технология экрана: ЖК
+                Smart TV: есть
+                TV-тюнер: DVB-C, DVB-T, DVB-S2, DVB-T2, DVB-S...
+            </description>
+            <price>2795</price>
+        </good>
+        <good id="41">
+            <category>Кухонная техника</category>
+            <name>Микроволновка SAMSUNG MS23T5018AW</name>
+            <count>67</count>
+            <description>
+                Мощность микроволн: 800 Вт
+                Объем: 23 л
+                Управление: сенсорное
+                Внутреннее покрытие: биокерамика
+                Комплектация: поворотный столик
+            </description>
+            <price>510</price>
+        </good>
+        <good id="42">
+            <category>Кухонная техника</category>
+            <name>Микроволновка LGMS20M47DARB</name>
+            <count>2</count>
+            <description>
+                Мощность микроволн: 700 Вт
+                Объем: 20 л
+                Управление: электронное
+                Внутреннее покрытие: эмаль
+                Функции и особенности: быстрый старт, часы
+            </description>
+            <price>510</price>
+        </good>
+        <good id="43">
+            <category>Кухонная техника</category>
+            <name>Микроволновка SAMSUNG MG23K3614AS</name>
+            <count>32</count>
+            <description>
+                Мощность микроволн: 800 Вт
+                Объем: 23 л
+                Управление: электронное
+                Внутреннее покрытие: биокерамика
+                Гриль: ТЭН
+            </description>
+            <price>398</price>
+        </good>
+        <good id="44">
+            <category>Кухонная техника</category>
+            <name>Микроволновка lg mw23w35gib</name>
+            <count>352</count>
+            <description>
+                Мощность микроволн: 1000 Вт
+                Объем: 23 л
+                Управление: сенсорное
+                Внутреннее покрытие: антибактериальное, ...
+                Количество программ автоменю: 22
+            </description>
+            <price>456</price>
+        </good>
+        <good id="45">
+            <category>Аудио</category>
+            <name>Наушники  APPLE AIRPODS 2</name>
+            <count>13</count>
+            <description>
+                Цвет: белый
+                Тип: наушники с микрофоном
+                Подключение: Bluetooth
+                Интерфейсы: Bluetooth
+                Тип аккумулятора: Li-ion
+                Комплектация: кабель USB, чехол
+            </description>
+            <price>240</price>
+        </good>
+        <good id="46">
+            <category>Аудио</category>
+            <name>Наушники HYPERX CLOUD STRINGER</name>
+            <count>87</count>
+            <description>
+                Цвет: черный
+                Тип: наушники с микрофоном
+                Подключение: 3.5 мм
+                Сопротивление: 16 Ом
+                Чувствительность: 99 Дб
+            </description>
+            <price>127</price>
+        </good>
+        <good id="47">
+            <category>Аудио</category>
+            <name>Наушники  APPLE AIRPODS PRO(MVP22)</name>
+            <count>7</count>
+            <description>
+                Цвет: белый
+                Тип: наушники с микрофоном
+                Подключение: Bluetooth
+                Интерфейсы: Bluetooth
+                Тип аккумулятора: Li-ion
+            </description>
+            <price>769</price>
+        </good>
+        <good id="48">
+            <category>Аудио</category>
+            <name>Наушники XIAOMI TURE WIRELESS LITE</name>
+            <count>50</count>
+            <description>
+                Цвет: белый
+                Радиус действия: 10 м
+                Тип: наушники с микрофоном
+                Подключение: Bluetooth
+                Сопротивление: 16 Ом
+                Интерфейсы: Bluetooth
+            </description>
+            <price>109.99</price>
+        </good>
+        <good id="49">
+            <category>Аудио</category>
+            <name>Наушники CANYON CNE-CBTHS1B</name>
+            <count>50</count>
+            <description>
+                Цвет: черный
+                Радиус действия: 10 м
+                Тип: наушники с микрофоном
+                Подключение: Bluetooth
+                Емкость аккумулятора: 45 мАч
+                Интерфейсы: Bluetooth
+            </description>
+            <price>39.90</price>
+        </good>
+        <good id="50">
+            <category>Аудио</category>
+            <name>Наушники JBL T110BT</name>
+            <count>21</count>
+            <description>
+                Цвет: черный
+                Тип: наушники с микрофоном
+                Подключение: Bluetooth
+                Сопротивление: 16 Ом
+                Чувствительность: 96 Дб
+                Интерфейсы: Bluetooth
+            </description>
+            <price>54.90</price>
         </good>
     </goods>
     <orders>
@@ -259,17 +668,17 @@
         </order>
         <order id="9">
             <customer-id>7</customer-id>
-            <good-id>21</good-id>
+            <good-id>41</good-id>
             <status-payment>ORDERED</status-payment>
         </order>
         <order id="10">
             <customer-id>1</customer-id>
-            <good-id>23</good-id>
+            <good-id>33</good-id>
             <status-payment>PAYED</status-payment>
         </order>
         <order id="11">
             <customer-id>1</customer-id>
-            <good-id>8</good-id>
+            <good-id>18</good-id>
             <status-payment>PAYED</status-payment>
         </order>
         <order id="12">
@@ -337,6 +746,27 @@
             <phone>+375297565733</phone>
             <email>kohanMatina@gmail.com</email>
             <password>marjokd34</password>
+        </customer>
+        <customer id="8">
+            <FIO>Логинова Алефтина Васильевна</FIO>
+            <address>г. Минск ул. Сурганова д.34, кв 5</address>
+            <phone>+375297566365</phone>
+            <email>akphloginova@gmail.com</email>
+            <password>lo24djvsgl</password>
+        </customer>
+        <customer id="9">
+            <FIO>Коршунов Дмитрий Аркадьевич</FIO>
+            <address>г. Чаусы ул. Азарова д.4, кв 28</address>
+            <phone>+375292476396</phone>
+            <email>dmitryKosh@gmail.com</email>
+            <password>azardmitry304593</password>
+        </customer>
+        <customer id="10">
+            <FIO>Лепицкая Виолла Андреевна</FIO>
+            <address>г. Полоцк ул. Карасева д.24, кв 78</address>
+            <phone>+37529673967</phone>
+            <email>viollalepitskay.com</email>
+            <password>villepkarasev</password>
         </customer>
     </customers>
     <admins>

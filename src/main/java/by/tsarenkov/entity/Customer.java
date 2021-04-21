@@ -79,16 +79,23 @@ public class Customer implements Serializable {
             return true;
         }
         Customer customer = (Customer) obj;
-        return (id == customer.getId() &
-                FIO == customer.getFIO() &
-                address == customer.getAddress() &
-                phone == customer.getPhone() &
-                email == customer.getEmail() &
-                password == customer.getPassword());
+        return (id == customer.getId());
     }
 
     @Override
     public int hashCode(){
-        return 0;
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getName()
+                + "[id=" + id
+                + ",FIO=" + FIO
+                + ",address=" + address
+                + ",phone=" + phone
+                + ",email=" + email
+                + ",password=" + password
+                +"]";
     }
 }

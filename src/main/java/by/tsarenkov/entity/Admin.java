@@ -60,9 +60,23 @@ public class Admin implements Serializable {
             return true;
         }
         Admin admin = (Admin) obj;
-        return (FIO == admin.getFIO() &
-                email == admin.getEmail() &
-                password == admin.getPassword());
+        return (id == admin.getId());
+    }
+
+    @Override
+    public int hashCode(){
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getName()
+                + "[id=" + id
+                + ",FIO=" + FIO
+                + ",email=" + email
+                + ",password=" + password
+                +"]";
+
     }
 
 }
